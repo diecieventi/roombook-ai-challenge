@@ -2,6 +2,8 @@
 
 Un piccolo esperimento sullo sviluppo software assistito da AI usando un processo strutturato.
 
+👉 **[Apri la pagina della challenge](https://diecieventi.github.io/roombook-ai-challenge/)**
+
 ## Non è una competizione
 
 Non ci sono premi, classifiche o vincitori.
