@@ -1,12 +1,12 @@
 # GitHub setup checklist
 
-## 1. Create a public repository
+## 1. Repository
 
-Suggested name:
+Repository pubblica:
 
-`roombook-ai-challenge`
+`diecieventi/roombook-ai-challenge`
 
-Push all files from this bundle to `main`.
+I file principali sono già caricati su `main`.
 
 ## 2. Enable GitHub Pages
 
@@ -17,6 +17,8 @@ Choose:
 - Source: Deploy from a branch
 - Branch: `main`
 - Folder: `/docs`
+
+I due ZIP pubblici sono già copiati anche in `docs/downloads/`, quindi i pulsanti del sito Pages funzionano senza GitHub Releases.
 
 ## 3. Enable Discussions
 
@@ -31,17 +33,22 @@ Use:
 - title: `community/DISCUSSION_TITLE.txt`
 - body: `community/DISCUSSION_BODY.md`
 
-Pin it.
+Poi fissala/pinnala in alto.
 
 ## 5. Patch the Discussion link
 
-Replace `DISCUSSION_URL_PLACEHOLDER` in `docs/index.html` with the URL of the pinned Discussion.
+Dopo aver creato la Discussion, copia il suo URL.
+
+Replace `DISCUSSION_URL_PLACEHOLDER` in `docs/index.html` with that URL.
 
 ## 6. Downloads
 
-Current Participant and Self Evaluator ZIPs are already in `/downloads`.
+Le copie usate dal sito Pages sono:
 
-For v1 this is enough. Later they can be moved to GitHub Releases if desired.
+- `docs/downloads/RoomBook-Challenge-PARTICIPANT-v1.4.zip`
+- `docs/downloads/RoomBook-Challenge-SELF-EVALUATOR-v1.4.zip`
+
+Esistono anche copie in `/downloads` come archivio della repository.
 
 ## 7. Suggested repository description
 
